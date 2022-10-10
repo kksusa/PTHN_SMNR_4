@@ -196,6 +196,7 @@ def ListMovies(array):
             actors = actors + str(array[i][7][u]).title() + ", "
         actors = actors[:-2]
         print(f"{params[7]} {actors}")
+        actors = ""
         print()
 
 def EditMovie(array):
@@ -319,6 +320,7 @@ while True:
         
 /add: Добавить фильм в базу данных;
 /clear: Очистить базу данных КиноБота;
+/cls: Очистить экран;
 /delete: Удалить фильм из КиноБота;
 /edit: Изменить данные о фильме;
 /exit: Выйти из программы;
